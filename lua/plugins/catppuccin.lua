@@ -3,10 +3,13 @@ return {
   "catppuccin/nvim",
   name = "catppuccin",
   opts = {
-    -- flavor = "mocha",
+    -- flavor = "latte",
     background = { -- :h background
+      light = "latte",
+      -- dark = "mocha",
     },
-    -- flavour = "mocha",
+    -- flavour = "auto",
+
     -- transparent_background = true,
   },
 }
